@@ -1,0 +1,497 @@
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.cf {
+    *zoom: 1;
+}
+a,.button,i,div{
+    transition: all, color 0.2s ease-in, background-color .3s ease-in, border-color .3s ease-in, border-radius .3s ease-in,opacity .3s ease-in;
+}
+.container {
+    display: block;
+    max-width: 1240px;
+    margin: auto;
+}
+body {
+    font-family: Tahoma;
+    font-size: 14px;
+}
+/* Header//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* logo */
+
+header {
+    display: block;
+    height: 110px;
+    background: #141a1d;
+}
+header > .logo > a > i {
+    color: #141a1d;
+    font-size: 110px;
+    margin: 0px 22px;
+}
+header > .logo > a {
+    display: block;
+    float: left;
+    width: 110px;
+    height: 110px;
+    background: #ff5722;
+}
+header > .logo > span {
+    float: left;
+    display: block;
+    margin: 14px;
+}
+header > .logo > span > h6 {
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    color: #ff5722;
+    line-height: 31px;
+    text-align: right;
+}
+header > .logo > span > h3 {
+    text-transform: uppercase;
+    font-family: Lato;
+    line-height: 31px;
+    font-size: 57px;
+    font-weight: 900;
+    color: #ff5722;
+}
+/* navigation */
+
+header > nav {
+    display: block;
+    float: right;
+    margin: 46px 20px;
+}
+header > nav > ul > li {
+    float: left;
+    display: block;
+    margin: 0 10px;
+}
+header > nav > ul > li > a {
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 31px;
+    color: #637076;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+header > nav > ul > li > a:hover {
+    color: #fff;
+}
+header> a {
+    float: right;
+    margin: 34px 28px;
+    color: #03a9f4;
+    font-size: 43px;
+}
+/* Header//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* slides//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.slides {
+    background: url(images/Layer-112.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+.slides > .container > h1 {
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 92px;
+    line-height: 98px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.left-slide,.right-slide{
+    margin-top: 120px;
+    background: #c4baaf;
+    text-align: center;
+    width: 69px;
+    height: 69px;
+    float: left;
+    display: block;
+    opacity: 0.55;
+    cursor: pointer;
+}
+.left-slide:hover,.right-slide:hover{
+    opacity: 0.85;
+}
+.left-slide{
+    margin-right: 1px;
+}
+.right-slide > i,.left-slide > i{
+    font-size: 74px;
+    color: #6d6c6a;
+}
+/* slides//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* info//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.info {
+    display: inline-block;
+    width: 100%;
+    background: #ff5722;
+    padding: 60px 0;
+}
+.info > .container > h3 {
+    display: block;
+    float: left;
+    width: 70%;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 38px;
+    line-height: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.info > .container > a {
+    display: block;
+    float: right;
+    color: #ffffff;
+    font: 400 28px Lato;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    border: 2px solid #fff;
+}
+/* info//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* headline//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.headline {
+    background: url(images/Layer-70.png);
+    padding-top: 130px;
+    padding-bottom: 110px;
+}
+.headline > .container > h2 {
+    color: #263238;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+.headline > .container > h2 > strong {
+    font-weight: 700;
+}
+.headline > .container > p {
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Open Sans";
+    color: #645f5f;
+    font-weight: 300;
+    width: 81%;
+    margin: 50px 0;
+}
+.headline > .container > .ba-grid > .ba-width-1-4 {
+    margin-top: 40px;
+}
+.headline > .container > .ba-grid > .ba-width-1-4 > h4 {
+    color: #03a9f4;
+    font: 700 30px"Open Sans";
+    margin-top: 30px;
+}
+.headline > .container > .ba-grid > .ba-width-1-4 > h5 {
+    color: #211f1f;
+    font: 700 18px"Open Sans";
+}
+.headline > .container > .ba-grid > .ba-width-1-4 > p {
+    color: #211f1f;
+    font: 300 14px / 21px"Open Sans";
+}
+.headline > .container > .ba-grid > .ba-width-1-4 > .button {
+    display: block;
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px;
+    font-size: 15px;
+    font-family: "Open sans";
+    line-height: 21px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase: ;
+    background: #ff5722;
+    width: 146px;
+    height: 49px;
+}
+/* headline//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* video//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.video {
+    background: url(images/Layer-114.png)no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+.video > .container > h2 {
+    color: #ff5722;
+    text-transform: uppercase;
+    font: 300 72px"Open Sans";
+}
+.video > .container > h1 {
+    margin-bottom: 80px;
+    color: #ff5722;
+    text-transform: uppercase;
+    font: 700 72px"Open Sans";
+}
+/* left-side ///////////////////////////////////////////////////////////////////////*/
+
+.video > .container > .ba-grid > .ba-width-1-2 > iframe {
+    box-sizing: border-box;
+    width: 100%;
+    height: 339px;
+}
+/* right-side/////////////////////////////////////////////////////////////////// */
+
+.video > .container > .ba-grid > .ba-width-1-2 > .ba-grid > .ba-width-1-3 > img + img {
+    margin-top: 8px;
+}
+.video > .container > .ba-grid > .ba-width-1-2 > .ba-grid > .ba-width-2-3 > h4 {
+    color: #03a9f4;
+    font: 300 46px"Open Sans";
+    text-transform: uppercase;
+}
+.video > .container > .ba-grid > .ba-width-1-2 > .ba-grid > .ba-width-2-3 > h3 {
+    color: #03a9f4;
+    font: 700 46px"Open Sans";
+    text-transform: uppercase;
+}
+.video > .container > .ba-grid > .ba-width-1-2 > .ba-grid > .ba-width-2-3 > h6 {
+    color: #ffffff;
+    font: 700 18px"Open Sans";
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.video > .container > .ba-grid > .ba-width-1-2 > .ba-grid > .ba-width-2-3 > p {
+    color: #ffffff;
+    font: 300 16px / 24px"Open Sans";
+}
+/* video//////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* services ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.services {
+    background: #fff;
+    padding: 80px 0;
+}
+.services > .container > h2 {
+    color: #263238;
+    font: 300 72px"Open Sans";
+    width: 82%;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.services > .container > h2 > strong {
+    color: #263238;
+    font: 700 72px"Open Sans";
+}
+.services > .container > .ba-grid > .ba-width-1-2 > ul > li {
+    float: left;
+    margin: 0px 2px;
+}
+.services > .container > .ba-grid > .ba-width-1-2 > ul > li > img {
+    width: 113px;
+    height: 78px;
+}
+.services > .container > .ba-grid > .ba-width-1-2 > ul > li > h5 {
+    color: #ff5722;
+    font: 700 14px"Open Sans";
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.services > .container > .ba-grid > .ba-width-1-2 > h4 {
+    color: #211f1f;
+    font: 700 18px"Open Sans";
+    margin-bottom: 15px;
+}
+.services > .container > .ba-grid > .ba-width-1-2 > p {
+    color: #211f1f;
+    font: 300 16px / 24px"Open Sans";
+}
+/* services ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* customers ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.customers {
+    background: url(images/Layer-115.png) no-repeat;
+    background-size: cover;
+    padding: 75px 0;
+}
+.customers > .container > h2 {
+    color: #ffffff;
+    font: 300 72px"Open Sans";
+}
+.customers > .container > h2 > strong {
+    color: #ffffff;
+    font: 700 72px"Open Sans";
+}
+.customers > .container > .ba-grid > .ba-width-1-3 {
+    background: #fff;
+    background-image: url(images/%E2%80%9C.png);
+    background-repeat: no-repeat;
+    background-position: 15px 17px;
+    border-radius: 10px;
+    width: 31%;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-bottom: 90px;
+}
+.customers > .container > .ba-grid > .ba-width-1-3 + .ba-width-1-3 {
+    margin-left: 30px;
+}
+.customers > .container > .ba-grid > .ba-width-1-3 > h4 {
+    color: #03a9f4;
+    font: 700 18px"Open Sans";
+    margin-bottom: 26px;
+}
+.customers > .container > .ba-grid > .ba-width-1-3 > p {
+    color: #607d8b;
+    font: italic 14px / 21px"Open Sans";
+}
+.customers > .container > .ba-grid > .ba-width-1-3 > img {
+    position: absolute;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.customers > .container > .buttonlr {
+    display: block;
+    width: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+.customers > .container > div > a {
+    display: block;
+    width: 20px;
+    margin: auto;
+    color: #93908a;
+    font-size: 50px;
+    float: right;
+}
+.customers > .container > div > a:hover {
+    color: #fe4f00;
+}
+.customers > .container >div> .left-button {
+    float: left;
+}
+/* customers ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* galery ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+    .galery{
+        background: url(images/Layer-70.png);
+        padding: 80px 0;
+    }
+    .galery > .container > h2{
+        text-transform: uppercase;
+        color: #263238;
+        font: 300 72px "Open Sans";
+        margin-bottom: 80px;
+    }
+.galery > .container > h2 > strong{
+    color: #263238;
+    font: 700 72px "Open Sans";
+}
+.galery > .container > .ba-grid > .ba-width-3-4 > .ba-grid > .ba-width-1-3 + .ba-width-1-3 > img{
+    margin-left: -15px;
+}
+.galery > .container > .ba-grid > .ba-width-3-4 > .ba-grid > .ba-width-1-3 > img+img{
+    margin-top: 30px;
+}
+.galery > .container > .ba-grid > .ba-width-3-4 > a{
+    display: block;
+    width: 26px;
+    height: 27px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background: #93908a;
+}
+.galery > .container > .ba-grid > .ba-width-3-4 > a:hover{
+    background: #ff5722;
+}
+.galery > .container > .ba-grid > .ba-width-1-4 > h3{
+    color: #ff5722;
+    font: 700 30px "Open Sans";
+    margin-bottom: 30px;
+}
+.galery > .container > .ba-grid > .ba-width-1-4 > div{
+    margin-bottom: 18px;
+}
+.galery > .container > .ba-grid > .ba-width-1-4 > div > h4{
+    color: #03a9f4;
+    font: 700 18px "Open Sans";
+    margin-bottom: 14px;
+}
+.galery > .container > .ba-grid > .ba-width-1-4 > div > p{
+    color: #211f1f;
+    font: 300 14px / 21px "Open Sans";
+    margin-bottom: 23px;
+}
+.galery > .container > .ba-grid > .ba-width-1-4 > div > a{
+    text-decoration: none;
+    color: #93908a;
+    font: 400 12px / 21px "Open Sans";
+}
+/* galery ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* stats ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.stats{
+    background: url(images/Layer-116.png) no-repeat;
+    background-size: cover;
+    height: 653px;
+    padding: 79px 0;
+}
+.stats > .container > .ba-grid > .ba-width-1-2:first-child{
+    border: 2px solid #fff;
+}
+.stats > .container > .ba-grid > .ba-width-1-2:first-child >div> div{
+    display: block;
+    margin-left: -20px;
+    color: #e4e1d9;
+    font: 300 14px / 21px "Open Sans";
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.stats > .container > .ba-grid > .ba-width-1-2:first-child >div> div > i{
+    margin-right: 15px;
+}
+.stats > .container > .ba-grid > .ba-width-1-2:first-child >div>p{
+    display: block;
+    margin-left: -20px;
+    padding: 10px;
+    padding-left: 35px;
+    color: #03a9f4;
+    font: 300 13px / 21px "Open Sans";
+    display: none;
+}
+.stats > .container > .ba-grid > .ba-width-1-2:first-child >div>.open{
+    display: block;
+}
+/* stats ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* stats ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* stats ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
