@@ -127,9 +127,15 @@ header> a {
     background: url(../images/slide2-bg.jpg)no-repeat;
     background-size: cover;
 }
+.slide2 > .container > h1{
+    width: 70%;
+}
 .slide3 {
     background: url(../images/slide3-bg.jpg)no-repeat;
     background-size: cover;
+}
+.slide3 > .container > h1{
+    width: 110%;
 }
 .slides > div > div >.container > h1 {
     color: #ffffff;
