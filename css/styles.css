@@ -118,6 +118,12 @@ header> a {
 .slide {
     background-size: cover;
     width: 100%;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 92px;
+    line-height: 98px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 .slide1 {
     background: url(images/Layer-112.png)no-repeat;
@@ -137,16 +143,9 @@ header> a {
 .slide3 > .container > h1{
     width: 110%;
 }
-.slides > div > div >.container > h1 {
-    color: #ffffff;
-    font-family: Lato;
-    font-size: 92px;
-    line-height: 98px;
-    font-weight: 900;
-    text-transform: uppercase;
-}
 .left-slide,
 .right-slide {
+    font-size: 14px;
     margin-top: 50px;
     background: #c4baaf;
     text-align: center;
@@ -713,7 +712,7 @@ header> a {
 .contact_us > .container > form > input,
 textarea {
     border: 1px solid #263238;
-    border-radius: 2px;
+    border-radius: 5px;
     color: #263238;
     font: 400 18px / 29px"Lato";
 }
@@ -785,3 +784,25 @@ footer > .container > p > a > span{
 }
 
 /* footer ////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/* Responsive /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* 1560px */
+
+@media (max-width:1560px){
+   header > nav > ul > li > a {
+       font-size: 14px;
+    }
+    header > a{
+        margin: 32px 14px;
+    }
+    .slide > .container{
+        width: 80%;
+    }
+    .slide > .container  > h1{
+        font-size: 50px;
+    }
+}
