@@ -1037,8 +1037,8 @@ footer > .container > p > a > span {
         font-size: 45px;
     }
     .video > .container > .ba-grid > .ba-width-1-2 > iframe{
-        width: 300px;
-        height: 164px;
+        width: 400px;
+        height: 224px;
     }
     .video > .container > .ba-grid > .ba-width-1-2 > .ba-grid{
         width: 68%;
@@ -1061,7 +1061,13 @@ footer > .container > p > a > span {
             float: none;
             margin:20px auto;
         }
+    .stats{
+        padding: 30px;
+    }
     .ac-container  label{
-        font-size: 11px;
+        font-size: 10px;
+    }
+    .percent-stats > div > div {
+        font-size: 16px;
     }
 }
