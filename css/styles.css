@@ -85,7 +85,7 @@ header > .logo > span > h3 {
 
 .hide {
     visibility: hidden;
-    display: none !important;
+    display: none;
 }
 nav {
     display: block;
@@ -504,9 +504,6 @@ header> a {
 }
 /* first info */
 
-.stats > .container > .ba-grid > .ba-width-1-2:first-child {
-    border: 2px solid #fff;
-}
 .stats > .container > .ba-grid > .ba-width-1-2:first-child >div> div {
     display: block;
     margin-left: -20px;
@@ -518,7 +515,6 @@ header> a {
 .ac-container label {
     padding: 10px;
     padding-left: 45px;
-    border: 1px solid #fff;
     position: relative;
     display: block;
     height: 40px;
@@ -561,7 +557,6 @@ header> a {
 }
 .ac-container input:checked ~ label {
     color: #03a9f4;
-    border: 1px solid #03a9f4;
 }
 .ac-container input:checked ~ label:before {
     background: url(images/%EF%81%96.png);
@@ -1071,5 +1066,4 @@ footer > .container > p > a > span {
             float: none;
             margin:20px auto;
         }
-
 }
