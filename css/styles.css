@@ -266,7 +266,7 @@ header> a {
     line-height: 21px;
     font-weight: 400;
     text-decoration: none;
-    text-transform: uppercase: ;
+    text-transform: uppercase;
     background: #ff5722;
     width: 146px;
     height: 49px;
@@ -280,6 +280,7 @@ header> a {
     width: 100%;
     background: url(images/Layer-114.png)no-repeat;
     background-size: cover;
+    padding: 80px;
 }
 .video > .container > h2 {
     color: #ff5722;
